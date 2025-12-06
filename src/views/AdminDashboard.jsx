@@ -32,6 +32,7 @@ const AdminDashboard = () => {
       <div className="frame">
         <div className="rectangle" />
 
+        {/* پنل داشبورد */}
         <div className="dashboard">
           <button className="btn_dashboardadmin">داشبورد</button>
           <div className="icon_doshboard">
@@ -39,7 +40,7 @@ const AdminDashboard = () => {
           </div>
 
           <div className="div" />
-
+          {/* دکمه مدیریت دروس */}
           <button className="btn_managecourse" onClick={handleManageCourse}>مدیریت دروس</button>
           <div className="icon_manage_course">
             <MdMenuBook className="icon" />
