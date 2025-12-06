@@ -51,6 +51,7 @@ const AdminDashboard = () => {
 
         <div className="rectangle-2" />
 
+          {/* پیام خوش امد گویی */}
         <p className="p">کاربر عزیز به داشبورد خود خوش آمدید</p>
 
         <img className="login-page" alt="Login page" src={dashboard} />
