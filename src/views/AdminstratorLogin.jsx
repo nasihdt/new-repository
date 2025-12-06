@@ -40,7 +40,7 @@ const AdminstratorLogin = () =>{
             <input type="password" placeholder="رمز عبور" />
           </div>
         </div>
-        <button className="Login_btn">ورود</button>
+        <button className="Login_btn" onClick={handleLogin}>ورود</button>
       </div>
     </div>
     )
