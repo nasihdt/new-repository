@@ -30,11 +30,13 @@ const AdminstratorLogin = () =>{
           <div className="title_page">ورود به سامانه</div>
           <div className="underline"></div>
         </div>
+        {/* بخش ورودی نام کاربری */}
         <div className="inputs">
           <div className="input-wrapper">
             <FaUser className="icon" />
             <input type="text" placeholder="نام کاربری" />
           </div>
+          {/* بخش ورودی رمز عبور */}
           <div className="input-wrapper">
             <FaLock className="icon" />
             <input type="password" placeholder="رمز عبور" />

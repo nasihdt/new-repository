@@ -33,7 +33,7 @@
   height: 80px;
   border: none;
 } 
- 
+ /* button manage course */
 .btn_managecourse {
   color: #000000;
   border-radius: 20px;
@@ -63,7 +63,7 @@
   top: 260px;
   width: 96px;
 } 
-
+/* for icon shamran */
 .container .shahid-chamran {
   aspect-ratio: 1.12;
   height: 100px;

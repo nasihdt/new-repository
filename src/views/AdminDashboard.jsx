@@ -32,6 +32,7 @@ const AdminDashboard = () => {
       <div className="frame">
         <div className="rectangle" />
 
+        {/* پنل داشبورد */}
         <div className="dashboard">
           <button className="btn_dashboardadmin">داشبورد</button>
           <div className="icon_doshboard">
@@ -39,7 +40,7 @@ const AdminDashboard = () => {
           </div>
 
           <div className="div" />
-
+          {/* دکمه مدیریت دروس */}
           <button className="btn_managecourse" onClick={handleManageCourse}>مدیریت دروس</button>
           <div className="icon_manage_course">
             <MdMenuBook className="icon" />
@@ -50,6 +51,7 @@ const AdminDashboard = () => {
 
         <div className="rectangle-2" />
 
+          {/* پیام خوش امد گویی */}
         <p className="p">کاربر عزیز به داشبورد خود خوش آمدید</p>
 
         <img className="login-page" alt="Login page" src={dashboard} />
